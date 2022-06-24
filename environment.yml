@@ -4,8 +4,8 @@ channels:
 dependencies:
 - python >=3.9
 - matplotlib-base=3.5.1
-- pandas
+- pandas=1.4.2
 - numpy
-- ipywidgets
+- ipywidgets=7.6.5
 - jupyterlab>=3.1
 - voila>=0.2.11
