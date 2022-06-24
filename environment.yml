@@ -9,9 +9,3 @@ dependencies:
 - ipywidgets
 - jupyterlab>=3.1
 - voila>=0.2.11
-matplotlib:
-      # key:values under rcParams are used to update matplotlib.rcParams
-      rcParams: 
-        'figure.dpi': 300.0
-        # this ensures text in plots is exported as text objects
-        svg.fonttype: "none"
