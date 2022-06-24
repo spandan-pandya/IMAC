@@ -3,7 +3,7 @@ channels:
 - conda-forge
 dependencies:
 - python >=3.9
-- matplotlib-base
+- matplotlib-base=3.5.1
 - pandas
 - numpy
 - ipywidgets
