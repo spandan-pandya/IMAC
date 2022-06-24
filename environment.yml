@@ -13,6 +13,7 @@ graphics:
     matplotlib:
       backend: TkAgg # Agg
       # key:values under rcParams are used to update matplotlib.rcParams
-      rcParams: 600
+      rcParams: 
+        figure.dpi: 160
         # this ensures text in plots is exported as text objects
         svg.fonttype: "none"
