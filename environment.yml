@@ -11,7 +11,6 @@ dependencies:
 - voila>=0.2.11
 graphics:
     matplotlib:
-      backend: TkAgg # Agg
       # key:values under rcParams are used to update matplotlib.rcParams
       rcParams: 
         figure.dpi: 160
